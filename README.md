@@ -1,6 +1,14 @@
 aws-dashing
 ===========
 
+Cambios:
+- Modificado para trabajar con Node 8.0
+- Modificado para trabajar con la version new-dashing-js ya que el port actual esta descontinuado. Version utilizada: https://github.com/dnavarrom/new-dashing-js
+- Para iniciar: $ VIEW_ENGINE='jade' node server.js
+
+
+-----
+
 AWS dashboard powered by Dashing-js & Node.js
 
 - dashing: "The exceptionally handsome dashboard framework in Ruby and Coffeescript" - https://github.com/Shopify/dashing

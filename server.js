@@ -1,4 +1,4 @@
-var dashing = require('dashing-js').Dashing();
+var dashing = require('new-dashing-js').Dashing();
 
 //we can get the express app -> todo: rest api to get dashboards data
 var app = dashing.app
@@ -19,6 +19,7 @@ app.get('/api/test', function(req, res) {
 
 // Set your default dashboard here
 dashing.default_dashboard = 'awstv';
+
 
 dashing.start();
 
